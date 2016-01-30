@@ -92,14 +92,13 @@ ib, .ib, .inline_block, .inline-block { display:inline-block; }
 .underline { text-decoration:underline; }
 .italic { font-style:italic; }
 .strike { text-decoration: line-through;}
-.normal,
-.regular { font-style:normal; }
+.normal, .regular { font-style:normal; }
 
 a .ib { text-decoration:inherit; }
 
 .no-overflow, .nooverflow, .no_overflow { overflow: hidden; }
 .no-wrap, .nowrap, .no_wrap { white-space: nowrap; }
-.normal-wrap, .normalwrap { white-space:normal; }
+.normal-wrap, .normalwrap, .normal_wrap { white-space:normal; }
 .clip, .crop { overflow: hidden; white-space: nowrap; }
 
 .w0 { width:0%; }
@@ -150,7 +149,7 @@ a .ib { text-decoration:inherit; }
 .mw100 { min-width:100%; }
 
 .round, .border-radius { border-radius:2px; }
-.large-round, .large_round, .large-border-radius { border-radius:6px; }
+.large-round, .large-border-radius, .large_round { border-radius:6px; }
 
 /* Paddings */
 .padding { padding:10px; }
@@ -211,7 +210,7 @@ a .ib { text-decoration:inherit; }
 .scale20 { -ms-transform:scale(0.2);-webkit-transform:scale(0.2);transform:scale(0.2); }
 .scale10 { -ms-transform:scale(0.1);-webkit-transform:scale(0.1);transform:scale(0.1); }
 
-/* Pixel doesn't work in chrome atm... */
+/* Pixelated doesn't work in chrome atm... */
 .pixelated {
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
@@ -247,31 +246,31 @@ sup {
 
 /* Responsive */
 @media only screen and (max-width: 799px) {
-	.go-to-hide { display:none; }
-	.go-to-show { display:inherit; }
-	.go-to-auto { width:auto; }
-	.go-to-block { display:block; }
-	.go-to-ib { display:inline-block; }
-	.go-to-center { text-align:center; }
-	.go-to-5 { width:5%; }
-	.go-to-10 { width:10%; }
-	.go-to-15 { width:15%; }
-	.go-to-20 { width:20%; }
-	.go-to-25 { width:25%; }
-	.go-to-30 { width:30%; }
-	.go-to-33 { width:33.33%; }
-	.go-to-35 { width:35%; }
-	.go-to-40 { width:40%; }
-	.go-to-45 { width:45%; }
-	.go-to-50 { width:50%; }
-	.go-to-60 { width:60%; }
-	.go-to-65 { width:65%; }
-	.go-to-66 { width:66.66%; }
-	.go-to-70 { width:70%; }
-	.go-to-75 { width:75%; }
-	.go-to-80 { width:80%; }
-	.go-to-85 { width:85%; }
-	.go-to-90 { width:90%; }
-	.go-to-95 { width:95%; }
-	.go-to-100 { width:100%; }
+	.to-hide, .go-to-hide { display:none; }
+	.to-show, .go-to-show { display:inherit; }
+	.to-auto, .go-to-auto { width:auto; }
+	.to-block, .go-to-block { display:block; }
+	.to-ib, .go-to-ib { display:inline-block; }
+	.to-center, .go-to-center { text-align:center; }
+	.to-5, .go-to-5 { width:5%; }
+	.to-10, .go-to-10 { width:10%; }
+	.to-15, .go-to-15 { width:15%; }
+	.to-20, .go-to-20 { width:20%; }
+	.to-25, .go-to-25 { width:25%; }
+	.to-30, .go-to-30 { width:30%; }
+	.to-33, .go-to-33 { width:33.33%; }
+	.to-35, .go-to-35 { width:35%; }
+	.to-40, .go-to-40 { width:40%; }
+	.to-45, .go-to-45 { width:45%; }
+	.to-50, .go-to-50 { width:50%; }
+	.to-60, .go-to-60 { width:60%; }
+	.to-65, .go-to-65 { width:65%; }
+	.to-66, .go-to-66 { width:66.66%; }
+	.to-70, .go-to-70 { width:70%; }
+	.to-75, .go-to-75 { width:75%; }
+	.to-80, .go-to-80 { width:80%; }
+	.to-85, .go-to-85 { width:85%; }
+	.to-90, .go-to-90 { width:90%; }
+	.to-95, .go-to-95 { width:95%; }
+	.to-100, .go-to-100 { width:100%; }
 }
